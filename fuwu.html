@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的打工日記</title>
+  <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-light: #fff8f0;
+      --bg-dark: #2c3e50;
+      --text-light: #2d2d2d;
+      --text-dark: #ecf0f1;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+      transition: background 0.4s, color 0.4s;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-family: 'Zhi Mang Xing', cursive;
+      font-size: 42px;
+      color: #e74c3c;
+      animation: slideIn 1.2s ease-out;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(-100px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    blockquote {
+      background-color: #f8d7da;
+      border-left: 6px solid #c0392b;
+      padding: 20px;
+      font-style: italic;
+      font-size: 20px;
+      color: #7f0000;
+      margin: 30px 0;
+      animation: zoomIn 0.8s ease-in-out;
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.9); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .footer-note {
+      text-align: center;
+      font-size: 16px;
+      color: #555;
+      margin-top: 40px;
+    }
+
+    /* Dark mode at night */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: var(--bg-dark);
+        color: var(--text-dark);
+      }
+      .container {
+        background-color: rgba(44, 62, 80, 0.95);
+      }
+      blockquote {
+        background-color: #5c2b2b;
+        color: #ffdede;
+      }
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop hidden>
+    <source src="https://cdn.pixabay.com/download/audio/2023/03/20/audio_c2b3efbc0d.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+    <h1>🥩 我的打工日記：在牛排店學到的服務哲學</h1>
+
+    <p>去年的四月某一天，我鼓起勇氣，走進了一間平價牛排店面試。</p>
+    <p>還記得那天陽光很大，我的手一直冒汗，但也許是誠意打動了店長，我順利地拿到了這份工作，成為一名真正的服務生。</p>
+
+    <p>轉眼間，這段打工生活已經滿一年了。</p>
+
+    <p>這一年，我從一個什麼都不懂的學生，慢慢變成能夠獨當一面的店裡人員。從煎肉、點餐、送餐、補飲料到收擦桌面，每一個動作看起來簡單，背後其實都藏著小小的學問。</p>
+    <p>我學會了觀察客人的情緒、聽懂他們沒說出口的需求，也學會了用微笑解決尷尬的場面。</p>
+
+    <blockquote>
+      「服務，是用心去做的事。」
+    </blockquote>
+
+    <p>有一次，一位客人對餐點不太滿意，我一開始有點緊張，但還是努力地聽他說完，並把我學到的慢慢跟他說。後來客人吃完還對我說了一聲「謝謝帥哥」，那一刻我真的很感動，也更確定了這句話的意義。</p>
+
+    <p>這些經驗讓我不只是學會怎麼「工作」，更學會了怎麼與人互動、怎麼面對壓力，還有，怎麼更認識自己。</p>
+
+    <p>我想，未來無論我走到哪裡，這段在牛排店的打工時光，都會是我很重要的一課。</p>
+    <h2>上面是我的一些經驗分享。謝謝大家的支持！</h2>
+
+    <div class="footer-note">📝 如果你也有打工經驗，歡迎留言跟我分享你的故事喔！</div>
+  </div>
+</body>
+</html>
